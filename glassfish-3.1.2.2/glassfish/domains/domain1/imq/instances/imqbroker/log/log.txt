@@ -1,0 +1,59 @@
+# 1404377114302 Do not modify this line
+[03/Jul/2014:03:45:14 CDT] [B1002]: An existing property file for imqbroker was not found, no stored properties will be loaded
+[03/Jul/2014:03:45:14 CDT] 
+================================================================================
+Open Message Queue 4.5.2
+Oracle
+Version:  4.5.2 Patch 1  (Build 3-d)
+Compile:  Thu Jun  7 10:46:15 PDT 2012
+
+Copyright (c) 2012, Oracle and/or its affiliates.  All rights reserved.
+================================================================================
+Java Runtime: 1.7.0_45 Oracle Corporation C:\Program Files\Java\jdk1.7.0_45\jre
+[03/Jul/2014:03:45:14 CDT]    IMQ_HOME=C:\DevTools\Servers\Glassfish\glassfish-3.1.2.2\mq
+[03/Jul/2014:03:45:14 CDT] IMQ_VARHOME=C:\DevTools\Servers\Glassfish\glassfish-3.1.2.2\glassfish\domains\domain1\imq
+[03/Jul/2014:03:45:14 CDT] Windows 7 6.1 amd64 jn-PC (8 cpu) jn
+[03/Jul/2014:03:45:14 CDT] Java Heap Size: max=465920k, current=376320k
+[03/Jul/2014:03:45:14 CDT] Arguments: -port 7676 -name imqbroker -nobind -imqhome C:\DevTools\Servers\Glassfish\glassfish-3.1.2.2\mq -varhome C:\DevTools\Servers\Glassfish\glassfish-3.1.2.2\glassfish\domains\domain1\imq -libhome C:\DevTools\Servers\Glassfish\glassfish-3.1.2.2\mq\lib -useRmiRegistry -rmiRegistryPort 8686 -save -silent
+[03/Jul/2014:03:45:14 CDT] JMSRA BrokerProps: imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.service.activate=jmsdirect, imq.imqcmd.password=*****, imq.jmsra.managed=true, imq.cluster.nowaitForMasterBroker=true
+[03/Jul/2014:03:45:14 CDT] Broker Properties: imq.service.activate=jmsdirect, imq.cluster.nowaitForMasterBroker=true, imq.jmx.rmiregistry.use=true, imq.portmapper.port=7676, imq.jmsra.managed=true, imq.instancename=imqbroker, imq.log.console.output=NONE, imq.imqcmd.password=*****, imq.jmx.rmiregistry.port=8686, imq.service.runtimeAdd=mqdirect2, imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.portmapper.bind=false
+[03/Jul/2014:03:45:14 CDT] Embedded Broker 
+[03/Jul/2014:03:45:14 CDT] [B1060]: Loading persistent data...
+[03/Jul/2014:03:45:14 CDT] Using built-in file-based persistent store: C:\DevTools\Servers\Glassfish\glassfish-3.1.2.2\glassfish\domains\domain1\imq\instances\imqbroker\
+[03/Jul/2014:03:45:14 CDT] WARNING Existing file: incompleteTxnStorehas older cookie version than current version. Current version = 1. Original file version = 0
+[03/Jul/2014:03:45:14 CDT] [B1041]: Cluster initialization successful.
+[03/Jul/2014:03:45:14 CDT] new transaction log enabled
+[03/Jul/2014:03:45:14 CDT] sync writes to disk = false
+[03/Jul/2014:03:45:14 CDT] logNonTransactedMsgSend = false
+[03/Jul/2014:03:45:14 CDT] logNonTransactedMsgAck = false
+[03/Jul/2014:03:45:14 CDT] [B1392]: Opening transaction log with file mode rw, maximum size 10,485,760 bytes
+[03/Jul/2014:03:45:14 CDT] [B1136]: Processing stored transactions
+[03/Jul/2014:03:45:14 CDT] [B1390]: Loading of transactions has been successfully completed  
+[03/Jul/2014:03:45:14 CDT] [B1013]: Auto Creation of Queues is enabled
+[03/Jul/2014:03:45:14 CDT] [B1144]: Creating Dead Message Queue
+[03/Jul/2014:03:45:14 CDT] [B1158]: Administrator has created destination mq.sys.dmq [Queue]
+[03/Jul/2014:03:45:14 CDT] [B1239]: Using platform MBean server
+[03/Jul/2014:03:45:14 CDT] JESMF classes not present - JESMF support will not be enabled.
+[03/Jul/2014:03:45:14 CDT] JMX Connector Server jmxrmi started successfully with url service:jmx:rmi://jn-PC/jndi/rmi://jn-PC:8686/jn-PC/7676/jmxrmi
+[03/Jul/2014:03:45:14 CDT] [B1004]: Starting the admin service using tcp(host = *, port=0, mode=dedicated) with min threads 4 and max threads of 10 
+[03/Jul/2014:03:45:14 CDT] [B1227]: Using file user repository for admin service connection authentication
+[03/Jul/2014:03:45:14 CDT] [B1004]: Starting the jms service using tcp(host = *, port=0, mode=dedicated) with min threads 10 and max threads of 1000 
+[03/Jul/2014:03:45:14 CDT] [B1227]: Using file user repository for jms service connection authentication
+[03/Jul/2014:03:45:14 CDT] [B1004]: Starting the mqdirect2 service using in-process connections with min threads 0 and max threads of 0 
+[03/Jul/2014:03:45:14 CDT] [B1227]: Using file user repository for mqdirect2 service connection authentication
+[03/Jul/2014:03:45:14 CDT] [B1004]: Starting the jmsdirect service using  with min threads 0 and max threads of 0 
+[03/Jul/2014:03:45:14 CDT] [B1227]: Using file user repository for jmsdirect service connection authentication
+[03/Jul/2014:03:45:14 CDT] [B1004]: Starting the cluster service using tcp [ 0.0.0.0/0.0.0.0:14830 ] with min threads 1 and max threads of 1 
+[03/Jul/2014:03:45:14 CDT] [B1228]: Cluster ping interval is 60 seconds
+[03/Jul/2014:03:45:14 CDT] [B1039]: Broker "imqbroker@jn-PC:7676" ready.
+[03/Jul/2014:03:45:14 CDT] JMX Connection Open: jmxrmi, connection ID: rmi://192.168.179.1  1, Count=1
+[03/Jul/2014:03:45:14 CDT] JMX Connection Close: jmxrmi, connection ID: rmi://192.168.179.1  1, Count=0
+[03/Jul/2014:03:50:45 CDT] [B1047]: Shutting down broker...[BrokerProcess]
+[03/Jul/2014:03:50:45 CDT] [B1077]: Broadcast good-bye to all connections ...
+[03/Jul/2014:03:50:45 CDT] [B1078]: Flushing good-bye messages ...
+[03/Jul/2014:03:50:45 CDT] [B1007]: Stopping Service admin with protocol tcp(host = *, port=0, mode=dedicated)
+[03/Jul/2014:03:50:45 CDT] [B1007]: Stopping Service jmsdirect with protocol 
+[03/Jul/2014:03:50:45 CDT] [B1007]: Stopping Service mqdirect2 with protocol none
+[03/Jul/2014:03:50:45 CDT] [B1007]: Stopping Service jms with protocol tcp(host = *, port=0, mode=dedicated)
+[03/Jul/2014:03:50:45 CDT] JMX Connector Server jmxrmi stopped successfully
+[03/Jul/2014:03:50:47 CDT] [B1048]: Shutdown of broker complete.
